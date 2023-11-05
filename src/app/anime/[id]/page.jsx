@@ -5,7 +5,6 @@ import Link from 'next/link';
 const Page = async({params: {id}}) => {
     const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/anime/${id}`)
     const anime = await response.json() 
-    console.log(anime)
     return(
         <>
             <div className="pt-4 px-4 text-center">

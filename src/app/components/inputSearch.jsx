@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation"
 import { useRef } from "react"
 
-const inputSearch = () => {
+const InputSearch = () => {
     const searchRef = useRef()
     const router = useRouter()
 
@@ -28,4 +28,4 @@ const inputSearch = () => {
     )
 }
 
-export default inputSearch
+export default InputSearch

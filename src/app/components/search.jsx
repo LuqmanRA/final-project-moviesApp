@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '@/assets/logo.svg'
-import InputSearch from './inputSearch'
+import InputSearch from './InputSearch'
 
 const search = () => {
     return (
