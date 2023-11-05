@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '@/assets/logo.svg'
-import Store from "@/assets/Apple store 1.png"
+import Store from "@/assets/apple store 1.png"
 import Play from "@/assets/google play 1.png"
 import Insta from "@/assets/instagram 1.png"
 import Pinte from "@/assets/pinterest 1.png"
