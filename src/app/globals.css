@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#card {
+    transition: .3s ease all;
+}
+
+#card:hover {
+    scale: 102%;
+}
