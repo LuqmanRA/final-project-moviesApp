@@ -20,7 +20,7 @@ const Page = async({params: {id}}) => {
                     <p className="ml-2">{anime.data.score} Score</p>
             </div>
             <div className="px-4 flex justify-center">
-                <Image src={anime.data.images.webp.image_url} width={250} height={250} />
+                <Image src={anime.data.images.webp.image_url} alt="anime" width={250} height={250} />
             </div>
             <div className="text-center font-bold sm:text-2xl text-lg pt-4">
                 <Link href={anime.data.trailer.url} className="hover:underline hover:text-gray-500">Trailer</Link>

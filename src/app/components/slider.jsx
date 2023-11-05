@@ -18,7 +18,7 @@ export default function SlidingInterval() {
           <Image
             src={Hunter}
             className="absolute block w-full h-52 sm:h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
+            alt="hunter"
             width={350}
             height={350}
           />
@@ -30,7 +30,7 @@ export default function SlidingInterval() {
           <Image
             src={Attack}
             className="absolute block w-full h-52 sm:h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
+            alt="attack"
             width={350}
             height={350}
           />
@@ -42,7 +42,7 @@ export default function SlidingInterval() {
           <Image
             src={Fullmetal}
             className="absolute block w-full h-52 sm:h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
+            alt="fullmetall"
             width={350}
             height={350}
           />
